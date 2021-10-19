@@ -7,7 +7,7 @@ int main()
         
     while(a<10)
     {
-        cout<<a<<"Hello\n;"
+        cout<<a<<"Hello\n";
         a++;
     }
     
