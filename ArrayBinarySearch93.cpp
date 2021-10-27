@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
 
-#this algorithm used to find key in a sorted array
-#with predetermined array and length of it
+//this algorithm used to find key in a sorted array
+//with predetermined array and length of it
     
 int main()
 {
