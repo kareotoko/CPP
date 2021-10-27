@@ -9,9 +9,9 @@ int main()
 	for(int i=0;i<7;i++)
 	{
 		sum=sum+a[i];
-    }
+    	}
         
-	cout<<"sum is"<<sum;
+	cout<<"sum is "<<sum;
 	
 	return 0;
 	    
