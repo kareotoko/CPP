@@ -1,11 +1,14 @@
 #include<iostream>
 using namespace std;
+
+#this algorithm used to find key in a sorted array
+#with predetermined array and length of it
     
 int main()
 {
-    int A[10]={6,8,13,17,20,22,25,28,30,35};
+    	int A[10]={6,8,13,17,20,22,25,28,30,35};
  	int l=0,h=9,key,mid;
-	cout<<"Enter the Key";
+	cout<<"Enter the Key :";
 	cin>>key;
 	    
 	while(l<=h)
@@ -17,9 +20,9 @@ int main()
 			return 0;
 		}
 		else if(key<A[mid])
-			h=mid-l;
+			h=mid-1;
 		else
-			l=mid+l;
+			l=mid+1;
 	}
 	    
 	cout<<"Not Found";
